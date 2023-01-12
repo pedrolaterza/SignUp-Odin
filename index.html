@@ -9,7 +9,47 @@
 </head>
 <body>
     <main class="container">
-        
+        <div class="bg-image">
+            <div class="text-container">
+                <div class="logo-img">
+                    <img class="odinLogo" src="odinLogo.png" alt="">
+                </div>
+                <h1 class="logo-name">Odin on the Beach</h1>
+            </div>
+            <p class="photo-credit">Photo by <a href="https://unsplash.com/@karsten116?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Karsten Winegeart</a> on <a href="https://unsplash.com/photos/sp8B8hG5dz4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+        </div>
+
+        <div class="info-container">
+            <h2 class="title">this is not a real online service! You know you need something like this in your life to help you realize you deepest dreams. Sign up now to get started.<br>You <i>know </i>you want to</h2>
+
+            <div class="login-box">
+                <h2 class="login-title">Let's do this!</h2>
+
+                <form action="" method="POST">
+                    <label for="firstName">First Name</label>
+                    <input type="text" class="firstName" id="firstName" name="firstName" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" class="email" id="email" name="email" required >
+
+                    <label for="password">Password</label>
+                    <input type="password" class="password" id="password" name="password" required minlength="8">
+
+                    <label for="lastName">Last Name</label>
+                    <input type="text" class="lastName" id="lastName" name="lastName" required>
+
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="number" class="phoneNumber" id="phoneNumber" name="phoneNumber" required>
+
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" class="confirmPassword" id="confirmPassword" name="confirmPassword" required>
+                </form>
+            </div>
+            <button class="submit" id="submit">Create Account</button>
+
+            <p class="login">Already have an account?<a href="#">Login In</a></p>
+        </div>
     </main>
 </body>
 </html>
